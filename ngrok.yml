@@ -1,0 +1,6 @@
+version: "2"
+authtoken: 2q5bmnf9AdhtguBcxDDDUI0QlV9_2S7dg3LGf3CTR9qBfeMtQ
+tunnels:
+  paypal:
+    addr: 3002
+    proto: http
