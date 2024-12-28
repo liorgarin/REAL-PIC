@@ -24,7 +24,7 @@ if (!PAYPAL_CLIENT_ID || !PAYPAL_CLIENT_SECRET) {
 const PAYPAL_API = 'https://api-m.sandbox.paypal.com';
 
 // Replace with your actual ngrok domain
-const NGROK_DOMAIN = 'https://bbf20dd8f044.ngrok.app';
+const NGROK_DOMAIN = 'https://15378f3c69be.ngrok.app';
 const RETURN_URL = `${NGROK_DOMAIN}/success.html`;
 const CANCEL_URL = `${NGROK_DOMAIN}/cancel.html`;
 
