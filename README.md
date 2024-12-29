@@ -202,10 +202,4 @@ This is the “master manager” or admin login.
 
 ---
 
-## License
-
-This project is licensed under the MIT License. See the LICENSE file for details.
-
----
-
 Enjoy using **REAL-PIC**!
