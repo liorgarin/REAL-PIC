@@ -1,3 +1,7 @@
+# Ignore node_modules in any subfolder
+**/node_modules/
 node_modules/
 
+# Ignore package-lock in any subfolder
+**/package-lock.json
 package-lock.json
