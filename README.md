@@ -147,9 +147,6 @@ From `myproject/paypal-backend/`:
 node server.js
 ```
 
-> The PayPal backend typically runs on port 3002.  
-> If needed, run ngrok on port 3002 for external callback testing.
-
 ### 2. Run Zip-Photos Backend
 
 In a separate terminal, go to `myproject/zip-photos-backend/`:
@@ -179,14 +176,25 @@ Scan the printed QR code with the Expo Go app on a mobile device, or press `i` t
 
 ---
 
-## Manager Login Credentials
+## Payment Testing with PayPal Sandbox
 
-In the **manager-dashboard**, you can log in using:
+The app is configured to run PayPal transactions in sandbox mode, meaning no real funds will be used during testing. When you reach the PayPal login prompt in the app’s purchase flow, use the following **sandbox buyer** account details:
+
+- **Sandbox Email**: `sb-olhlx34114057@personal.example.com`
+- **Sandbox Password**: `PI#J3jWs`
+
+These credentials allow you to test completing payments without incurring actual charges.
+
+---
+
+## Manager/Admin Login Credentials
+
+In the **manager-dashboard**, log in with the “master manager” (admin) account:
 
 - **Email**: `reals.pics@gmail.com`
 - **Password**: `12345678`
 
-This is the “master manager” or admin login.
+After logging in, you can view and manage orders, coupons, workers, and more.
 
 ---
 
