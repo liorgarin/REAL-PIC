@@ -25,7 +25,7 @@
 ## Project Structure
 
 ```plaintext
-myproject/
+REAL-PIC/
  ├─ manager-dashboard/
  │   ├─ package.json
  │   └─ ...
